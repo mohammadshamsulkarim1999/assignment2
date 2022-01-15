@@ -1,0 +1,133 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header>nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1;
+}
+nav{
+    margin-left: 5em;
+}
+/* h3{
+    margin-left: 100px;
+} */
+.menu{
+    display: flex; 
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.one{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog-one-text,.blog-one-img{
+    margin-left: 5em;
+    margin-top: 5em;
+}
+.blog-one-text h1{
+    font-size: 50px;
+}
+#link{
+    color: blanchedalmond;
+    background-color:magenta;
+    padding: .15em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+#link2{
+    color: magenta;
+    background-color: white;
+    padding: .15em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+#link3{
+    color: blanchedalmond;
+    background-color:magenta;
+    padding: .15em;
+    /* border-radius: 1em; */
+    text-decoration: none;
+}
+.logos{
+    margin-top: 5em;
+    display: flex;
+    /* margin-left: 5em; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65em;
+}
+hr{
+    margin-top: 3.5em;
+    border: 1px solid gray;
+}
+#collection-header{
+    margin-bottom: 3em;
+        text-align: center;
+    }
+.two{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.popular-collection{
+    width: 200px;
+    height: 400px;
+    /* margin-left: 2em; */
+    border: .5em solid white;
+    box-shadow: 5px 0 10px gray;
+    
+}
+.popular-collection img{
+    width: 100%;
+}
+.short-size{
+    font-size: 0.55em;
+}
+.fa-star{
+    color: orange;
+    font-size: .75em;
+}
+.all-products{
+    margin: 5em 10em;
+    /* margin-top: 7em; */
+}
+.see-more-btn{
+    margin-top: 1em;
+    text-align: right;
+}
+.foot{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: slateblue;
+}
+.foot-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.bonus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 100px;
+}
+.bonus img{
+    width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+    .two{
+        gap: 10px !important;
+       
+    }
+    .all-products{
+        margin: 0 !important;
+    }
+}
